@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Iris Prediction</title>
+</head>
+<body>
+    <h1 class="text-center m-3 badge-primary text-wrap">Predict the Type of Species</h1>
+    <div class=" col-lg-7 container mt-5">
+        
+        <!-- <div class="col-lg-7 mt-5 container"> -->
+            <form action="/" method="post">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="entry_1">Sepal Length</label>
+                        <input type="float" name="sepal_length" class="form-control" id="entry_1" placeholder="Enter the sepal length in cm" required/>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="entry_2">Sepal Width</label>
+                        <input type="float" name="sepal_width" class="form-control" id="entry_2" placeholder="Enter the sepal width in cm" required/>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="entry_3">Petal Length</label>
+                        <input type="float" name="petal_length" class="form-control" id="entry_3" placeholder="Enter the petal length in cm" required/>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="entry_4">Petal Width</label>
+                        <input type="float" name="petal_width" class="form-control" id="entry_4"  placeholder="Enter the petal width in cm" required/>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary container">Predict</button>
+            </form>
+        <!-- </div> -->
+
+    </div>
+
+</body>
+</html>
